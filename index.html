@@ -207,21 +207,93 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
 
 <!-- NAV -->
 <div class="nav">
-  <button class="tab active" onclick="go(0)"><span class="n">1</span>Detroit</button>
-  <button class="tab" onclick="go(1)"><span class="n">2</span>Montevideo</button>
-  <button class="tab" onclick="go(2)"><span class="n">3</span>Brooklyn</button>
+  <button class="tab active" onclick="go(0)"><span class="n">1</span>Brooklyn</button>
+  <button class="tab" onclick="go(1)"><span class="n">2</span>Detroit</button>
+  <button class="tab" onclick="go(2)"><span class="n">3</span>Montevideo</button>
   <button class="tab" onclick="go(3)"><span class="n">4</span>New Orleans</button>
   <button class="tab" onclick="go(4)"><span class="n">5</span>Riyadh</button>
-  <button class="tab" onclick="go(5)"><span class="n">6</span>Original Series</button>
-  <button class="tab" onclick="go(6)"><span class="n">7</span>The Founders</button>
-  <button class="tab" onclick="go(7)"><span class="n">8</span>Content Tiers</button>
-  <button class="tab" onclick="go(8)"><span class="n">9</span>Performance</button>
+  <button class="tab" onclick="go(5)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right:7px;vertical-align:middle;opacity:0.5"><rect x="1" y="1" width="4.5" height="4.5" rx="0.5" stroke="currentColor" stroke-width="1.2"/><rect x="7.5" y="1" width="4.5" height="4.5" rx="0.5" stroke="currentColor" stroke-width="1.2"/><rect x="1" y="7.5" width="4.5" height="4.5" rx="0.5" stroke="currentColor" stroke-width="1.2"/><rect x="7.5" y="7.5" width="4.5" height="4.5" rx="0.5" stroke="currentColor" stroke-width="1.2"/></svg>Original Series</button>
+  <button class="tab" onclick="go(6)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right:7px;vertical-align:middle;opacity:0.5"><circle cx="6.5" cy="4.5" r="2.5" stroke="currentColor" stroke-width="1.2"/><path d="M2 11.5c0-2.485 2.015-4.5 4.5-4.5s4.5 2.015 4.5 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>The Founders</button>
+  <button class="tab" onclick="go(7)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right:7px;vertical-align:middle;opacity:0.5"><path d="M1.5 10.5V4.5L6.5 1.5L11.5 4.5V10.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="4.5" y="7" width="4" height="3.5" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>Content Tiers</button>
+  <button class="tab" onclick="go(8)"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right:7px;vertical-align:middle;opacity:0.5"><path d="M1.5 10L4.5 6.5L7 8.5L9.5 5L11.5 7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="1" y="1" width="11" height="11" rx="1" stroke="currentColor" stroke-width="1.2"/></svg>Performance</button>
 </div>
 
 <div class="panels">
 
+  <!-- ═══ BROOKLYN ═══ -->
+  <div class="panel active" id="p2">
+    <div class="ph">
+      <div>
+        <div class="ph-num">Location 03 — Brooklyn</div>
+        <div class="ph-title">Where Newlab<br>Began.<br>Ten Years In.</div>
+        <div class="ph-desc">Brooklyn is Newlab's flagship — 84,000 sq ft inside the Brooklyn Navy Yard. In 2026, the Brooklyn slate carries the biggest single production of the year: the Ten Year Special. Plus a State of Climate Tech roundtable, the Strobe founder profile, and a four-piece social suite. Julia leads, with potential support from Robert and Ryan.</div>
+      </div>
+      <div class="ph-meta">
+        <div class="ph-loc">Brooklyn, NY</div>
+        <div class="ph-row"><span>Lead</span><strong>Julia</strong></div>
+        <div class="ph-row"><span>Support</span><strong>Robert? · Ryan?</strong></div>
+        <div class="ph-row"><span>Roundtables</span><strong>1</strong></div>
+        <div class="ph-row"><span>Docu profiles</span><strong>2</strong></div>
+        <div class="ph-row"><span>Social</span><strong>4 pieces</strong></div>
+        <div class="ph-row"><span>Flagship</span><strong>Ten Year Special</strong></div>
+      </div>
+    </div>
+
+    <div class="slabel">Roundtable (1)</div>
+    <div class="grid">
+      <div class="card rt">
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="9" r="7.5" stroke="currentColor" stroke-width="1.3"/><path d="M1.5 9h15M9 1.5a11 11 0 0 1 0 15M9 1.5a11 11 0 0 0 0 15" stroke="currentColor" stroke-width="1.3"/></svg></div>
+        <div class="c-title">The State of Climate Tech</div>
+        <span class="c-badge">Roundtable · Critical Conversations</span>
+        <div class="c-desc">Where does climate technology stand in 2026? A roundtable with founders, investors, and operators on what is working, what has stalled, and what the breakthrough moments look like. Brooklyn — home to New Climate Futures and years of climate member companies — is the right location for this conversation.</div>
+        <div class="c-tags"><span class="c-tag">Brooklyn</span><span class="c-tag">Julia</span><span class="c-tag">Climate Tech</span><span class="c-tag">New Climate Futures</span><span class="c-tag">T1 Production</span></div>
+      </div>
+    </div>
+
+    <div class="slabel">Docu-Style Profiles (2)</div>
+    <div class="grid">
+      <div class="card dc">
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 2L5 10h6l-4 6 10-9h-6l5-5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></div>
+        <div class="c-title">Strobe — Founder / Company Profile</div>
+        <span class="c-badge">Docu Profile · The Founders</span>
+        <div class="c-desc">Strobe's story from inside Newlab Brooklyn — the technology, the team, and the moment the company is in. Built on intimate access during a formative stage of development. Clippable for The Founders social series.</div>
+        <div class="c-tags"><span class="c-tag">Brooklyn</span><span class="c-tag">Founder Profile</span><span class="c-tag">Climate Tech</span></div>
+      </div>
+      <div class="card ov">
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="4" width="11" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M12 7.5l5-2.5v8l-5-2.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M4 4V3M7 4V3M10 4V3M4 14v1M7 14v1M10 14v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
+        <div class="c-title">Newlab — Ten Year Special</div>
+        <span class="c-badge">Overview Film · T1 Flagship · Network-Wide</span>
+        <div class="c-desc">A milestone film marking a decade of Newlab. Brooklyn-anchored but drawing on the full network — what has been built, who built it, what the next ten years look like. Retrospective, celebratory, and forward-facing. The brand film of the year. Needs resources commensurate with its importance: $4.3B raised, $14.5B valuation growth, $2.8B in exits.</div>
+        <div class="c-tags"><span class="c-tag">Brooklyn</span><span class="c-tag">Network-Wide</span><span class="c-tag">10-Year Milestone</span><span class="c-tag">T1 Flagship</span></div>
+      </div>
+    </div>
+
+    <div class="slabel">Social Content (4)</div>
+    <div class="slist">
+      <div class="sitem"><div class="snum">01</div><div><span class="stitle">June Critical Mass — Preparation</span><span class="sbody">Pre-event content for Critical Mass Brooklyn. Last Takes clips during event. Jan–Feb data shows Critical Mass content at 7%+ engagement — highest of any format. Prioritize accordingly. T3 + T4.</span></div></div>
+      <div class="sitem"><div class="snum">02</div><div><span class="stitle">Book Roll-Out</span><span class="sbody">Social content supporting the Newlab book publication — contributor content, T4 graphic assets, distribution amplification, community engagement around launch. LinkedIn carousel format (carousel posts drove 51.48% engagement in Jan–Feb).</span></div></div>
+      <div class="sitem"><div class="snum">03</div><div><span class="stitle">A Day at Newlab</span><span class="sbody">Brooklyn edition of the day-in-the-life format. The Navy Yard space, the people, the energy. T2 DSLR. For onboarding, awareness, and the member community.</span></div></div>
+      <div class="sitem"><div class="snum">04</div><div><span class="stitle">Made at Newlab</span><span class="sbody">Brooklyn edition of the recurring Made at Newlab format — products, prototypes, and milestones from the flagship location's member companies. T2 + T3.</span></div></div>
+    </div>
+
+    <div class="callout">
+      <div class="callout-title">The Ten Year Special is the biggest production of 2026 — staff it now</div>
+      <div class="callout-body">No other piece in this plan carries the weight of the Ten Year Special. The story is compelling: a building in the Brooklyn Navy Yard that became a model for reindustrialization, now operating across five cities on three continents. This film needs to be produced as a T1 flagship, not a recap. Resolve Robert and Ryan staffing immediately so production planning, access coordination, and post timelines are realistic. The book roll-out social campaign maps directly to the LinkedIn carousel format — which is confirmed as the highest engagement format (51.48% in Jan–Feb 2026).</div>
+    </div>
+
+    <div class="owner">
+      <div class="owner-left"><div class="owner-name">Julia</div><div class="owner-role">Brooklyn Content Lead</div></div>
+      <div>
+        <div class="slabel" style="margin-top:0;margin-bottom:10px;">Brooklyn Deliverables</div>
+        <div class="owner-tags">
+          <span class="owner-tag">State of Climate Tech Roundtable</span><span class="owner-tag">Strobe Profile</span><span class="owner-tag">Ten Year Special</span><span class="owner-tag">June Critical Mass Social</span><span class="owner-tag">Book Roll-Out Social</span><span class="owner-tag">A Day at Newlab</span><span class="owner-tag">Made at Newlab</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- ═══ DETROIT ═══ -->
-  <div class="panel active" id="p0">
+  <div class="panel" id="p0">
     <div class="ph">
       <div>
         <div class="ph-num">Location 01 — Detroit</div>
@@ -242,14 +314,14 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Roundtables (2)</div>
     <div class="grid">
       <div class="card rt">
-        <div class="c-icon">🏭</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 16V8l4-3v3l4-3v3l4-3v13" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="7" y="11" width="4" height="5" stroke="currentColor" stroke-width="1.3"/><path d="M1 16h16" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">Manufacturing Roundtable</div>
         <span class="c-badge">Roundtable · Critical Conversations</span>
         <div class="c-desc">Who is building the next generation of the factory floor — and what does it look like from inside a Newlab building in the city that invented the assembly line? Advanced manufacturing, automation, and the reindustrialization thesis. Multi-voice, industry-facing. Clip for LinkedIn; full to YouTube.</div>
         <div class="c-tags"><span class="c-tag">Detroit</span><span class="c-tag">Angles · Sara</span><span class="c-tag">Advanced Mfg.</span><span class="c-tag">T1 Production</span></div>
       </div>
       <div class="card rt">
-        <div class="c-icon">🤖</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="6" width="10" height="8" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M9 3v3M7 3h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="6.5" cy="10" r="1" fill="currentColor"/><circle cx="11.5" cy="10" r="1" fill="currentColor"/><path d="M7 12.5h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M4 9H2M14 9h2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">Robotics or AAM Roundtable</div>
         <span class="c-badge">Roundtable · Critical Conversations · TBD</span>
         <div class="c-desc">Robotics or Advanced Air Mobility — a conversation on where the technology is heading, what Detroit uniquely enables, and the regulatory and infrastructure realities shaping deployment. Focus to be confirmed closer to production date based on member activity and market moment.</div>
@@ -260,27 +332,27 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Docu-Style Profiles (5)</div>
     <div class="grid">
       <div class="card dc">
-        <div class="c-icon">🧬</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 2c0 4 6 4 6 8s-6 4-6 8M12 2c0 4-6 4-6 8s6 4 6 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M6.5 6h5M6.5 12h5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">GLID — Founder / Company Profile</div>
         <span class="c-badge">Docu Profile · The Founders / Pilot Notes</span>
         <div class="c-desc">A close-up on the GLID founder and the technology being built inside Newlab Detroit. Captures the company at a specific moment of development — the problem, the progress, the space. Clippable for The Founders social series.</div>
         <div class="c-tags"><span class="c-tag">Detroit</span><span class="c-tag">T1 / T2</span></div>
       </div>
       <div class="card dc">
-        <div class="c-icon">🛰️</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="9" r="2.5" stroke="currentColor" stroke-width="1.3"/><path d="M9 1v3M9 14v3M1 9h3M14 9h3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M3.5 3.5l2 2M12.5 12.5l2 2M14.5 3.5l-2 2M5.5 12.5l-2 2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">General Orbit — Founder / Company Profile</div>
         <span class="c-badge">Docu Profile · The Founders</span>
         <div class="c-desc">General Orbit's founding story and the role Newlab's infrastructure plays in their development. Built on intimate access — the founder's voice, the texture of building a critical technology company at this stage, in this city.</div>
         <div class="c-tags"><span class="c-tag">Detroit</span><span class="c-tag">T1 / T2</span></div>
       </div>
       <div class="card ov">
-        <div class="c-icon">🎬</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="4" width="11" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M12 7.5l5-2.5v8l-5-2.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M4 4V3M7 4V3M10 4V3M4 14v1M7 14v1M10 14v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
         <div class="c-title">Newlab Detroit — Overview Film</div>
         <span class="c-badge">Overview Film · T1 Flagship</span>
         <div class="c-desc">The flagship Detroit film — a portrait of the building, the community, and the reindustrialization mission. Anchors two embedded editorial POV threads. Stands alone as a location introduction for partners, investors, and prospective members.</div>
         <div class="pov">
           <div class="pov-label">Embedded POV Threads</div>
-          <div class="pov-tags"><span class="pov-tag">⚗️ Geologic Hydrogen POV</span><span class="pov-tag">💰 Detroit VC Presence</span></div>
+          <div class="pov-tags"><span class="pov-tag">Geologic Hydrogen POV</span><span class="pov-tag">Detroit VC Presence</span></div>
         </div>
         <div class="c-tags" style="margin-top:10px;"><span class="c-tag">Detroit</span><span class="c-tag">Overlaps w/ Profiles</span><span class="c-tag">T1 Production</span></div>
       </div>
@@ -330,7 +402,7 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Roundtable (1)</div>
     <div class="grid">
       <div class="card rt">
-        <div class="c-icon">🌎</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="9" r="7.5" stroke="currentColor" stroke-width="1.3"/><path d="M1.5 9h15M9 1.5a11 11 0 0 1 0 15M9 1.5a11 11 0 0 0 0 15" stroke="currentColor" stroke-width="1.3"/></svg></div>
         <div class="c-title">Piloting in Latin America</div>
         <span class="c-badge">Roundtable · Critical Conversations</span>
         <div class="c-desc">What does it take to deploy and pilot critical technology in Latin America? Regulatory landscape, partnership structures, and why Montevideo is becoming a meaningful node on the global map. Grounded in real pilot stories from companies inside Newlab Montevideo.</div>
@@ -341,20 +413,20 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Docu-Style Profiles (2)</div>
     <div class="grid">
       <div class="card dc">
-        <div class="c-icon">🌬️</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 7h10a3 3 0 1 0-3-3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M2 10h7a2.5 2.5 0 1 1-2.5 2.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">Windborne — Founder / Company Profile</div>
         <span class="c-badge">Docu Profile · The Founders / Pilot Notes</span>
         <div class="c-desc">Windborne's story from inside Newlab Montevideo — the technology, the pilot context, and the founder's perspective on building in Latin America. Connects the company's work to the specific opportunity this location enables for startups entering new geographies.</div>
         <div class="c-tags"><span class="c-tag">Montevideo</span><span class="c-tag">Founder Profile</span><span class="c-tag">LatAm Deployment</span></div>
       </div>
       <div class="card ov">
-        <div class="c-icon">🎬</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="4" width="11" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M12 7.5l5-2.5v8l-5-2.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M4 4V3M7 4V3M10 4V3M4 14v1M7 14v1M10 14v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
         <div class="c-title">Newlab Montevideo — Overview Film</div>
         <span class="c-badge">Overview Film · T1 Flagship</span>
         <div class="c-desc">The Montevideo location film — who is here, what is being built, and why this city. Designed to introduce Newlab's Latin America presence to global partners, investors, and founders considering the region as a deployment market.</div>
         <div class="pov">
           <div class="pov-label">Embedded POV Threads</div>
-          <div class="pov-tags"><span class="pov-tag">🌲 UPM Pilot</span><span class="pov-tag">👥 Team Introduction</span></div>
+          <div class="pov-tags"><span class="pov-tag">UPM Pilot</span><span class="pov-tag">Team Introduction</span></div>
         </div>
         <div class="c-tags" style="margin-top:10px;"><span class="c-tag">Montevideo</span><span class="c-tag">Overlaps w/ Profiles</span><span class="c-tag">T1 Production</span></div>
       </div>
@@ -371,78 +443,6 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
         <div class="slabel" style="margin-top:0;margin-bottom:10px;">Montevideo Deliverables</div>
         <div class="owner-tags">
           <span class="owner-tag">Piloting in Latin America Roundtable</span><span class="owner-tag">Windborne Profile</span><span class="owner-tag">Montevideo Overview Film</span><span class="owner-tag">UPM Pilot POV</span><span class="owner-tag">Team Introduction POV</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ═══ BROOKLYN ═══ -->
-  <div class="panel" id="p2">
-    <div class="ph">
-      <div>
-        <div class="ph-num">Location 03 — Brooklyn</div>
-        <div class="ph-title">Where Newlab<br>Began.<br>Ten Years In.</div>
-        <div class="ph-desc">Brooklyn is Newlab's flagship — 84,000 sq ft inside the Brooklyn Navy Yard. In 2026, the Brooklyn slate carries the biggest single production of the year: the Ten Year Special. Plus a State of Climate Tech roundtable, the Strobe founder profile, and a four-piece social suite. Julia leads, with potential support from Robert and Ryan.</div>
-      </div>
-      <div class="ph-meta">
-        <div class="ph-loc">Brooklyn, NY</div>
-        <div class="ph-row"><span>Lead</span><strong>Julia</strong></div>
-        <div class="ph-row"><span>Support</span><strong>Robert? · Ryan?</strong></div>
-        <div class="ph-row"><span>Roundtables</span><strong>1</strong></div>
-        <div class="ph-row"><span>Docu profiles</span><strong>2</strong></div>
-        <div class="ph-row"><span>Social</span><strong>4 pieces</strong></div>
-        <div class="ph-row"><span>Flagship</span><strong>Ten Year Special</strong></div>
-      </div>
-    </div>
-
-    <div class="slabel">Roundtable (1)</div>
-    <div class="grid">
-      <div class="card rt">
-        <div class="c-icon">🌍</div>
-        <div class="c-title">The State of Climate Tech</div>
-        <span class="c-badge">Roundtable · Critical Conversations</span>
-        <div class="c-desc">Where does climate technology stand in 2026? A roundtable with founders, investors, and operators on what is working, what has stalled, and what the breakthrough moments look like. Brooklyn — home to New Climate Futures and years of climate member companies — is the right location for this conversation.</div>
-        <div class="c-tags"><span class="c-tag">Brooklyn</span><span class="c-tag">Julia</span><span class="c-tag">Climate Tech</span><span class="c-tag">New Climate Futures</span><span class="c-tag">T1 Production</span></div>
-      </div>
-    </div>
-
-    <div class="slabel">Docu-Style Profiles (2)</div>
-    <div class="grid">
-      <div class="card dc">
-        <div class="c-icon">⚡</div>
-        <div class="c-title">Strobe — Founder / Company Profile</div>
-        <span class="c-badge">Docu Profile · The Founders</span>
-        <div class="c-desc">Strobe's story from inside Newlab Brooklyn — the technology, the team, and the moment the company is in. Built on intimate access during a formative stage of development. Clippable for The Founders social series.</div>
-        <div class="c-tags"><span class="c-tag">Brooklyn</span><span class="c-tag">Founder Profile</span><span class="c-tag">Climate Tech</span></div>
-      </div>
-      <div class="card ov">
-        <div class="c-icon">🎬</div>
-        <div class="c-title">Newlab — Ten Year Special</div>
-        <span class="c-badge">Overview Film · T1 Flagship · Network-Wide</span>
-        <div class="c-desc">A milestone film marking a decade of Newlab. Brooklyn-anchored but drawing on the full network — what has been built, who built it, what the next ten years look like. Retrospective, celebratory, and forward-facing. The brand film of the year. Needs resources commensurate with its importance: $4.3B raised, $14.5B valuation growth, $2.8B in exits.</div>
-        <div class="c-tags"><span class="c-tag">Brooklyn</span><span class="c-tag">Network-Wide</span><span class="c-tag">10-Year Milestone</span><span class="c-tag">T1 Flagship</span></div>
-      </div>
-    </div>
-
-    <div class="slabel">Social Content (4)</div>
-    <div class="slist">
-      <div class="sitem"><div class="snum">01</div><div><span class="stitle">June Critical Mass — Preparation</span><span class="sbody">Pre-event content for Critical Mass Brooklyn. Last Takes clips during event. Jan–Feb data shows Critical Mass content at 7%+ engagement — highest of any format. Prioritize accordingly. T3 + T4.</span></div></div>
-      <div class="sitem"><div class="snum">02</div><div><span class="stitle">Book Roll-Out</span><span class="sbody">Social content supporting the Newlab book publication — contributor content, T4 graphic assets, distribution amplification, community engagement around launch. LinkedIn carousel format (carousel posts drove 51.48% engagement in Jan–Feb).</span></div></div>
-      <div class="sitem"><div class="snum">03</div><div><span class="stitle">A Day at Newlab</span><span class="sbody">Brooklyn edition of the day-in-the-life format. The Navy Yard space, the people, the energy. T2 DSLR. For onboarding, awareness, and the member community.</span></div></div>
-      <div class="sitem"><div class="snum">04</div><div><span class="stitle">Made at Newlab</span><span class="sbody">Brooklyn edition of the recurring Made at Newlab format — products, prototypes, and milestones from the flagship location's member companies. T2 + T3.</span></div></div>
-    </div>
-
-    <div class="callout">
-      <div class="callout-title">The Ten Year Special is the biggest production of 2026 — staff it now</div>
-      <div class="callout-body">No other piece in this plan carries the weight of the Ten Year Special. The story is compelling: a building in the Brooklyn Navy Yard that became a model for reindustrialization, now operating across five cities on three continents. This film needs to be produced as a T1 flagship, not a recap. Resolve Robert and Ryan staffing immediately so production planning, access coordination, and post timelines are realistic. The book roll-out social campaign maps directly to the LinkedIn carousel format — which is confirmed as the highest engagement format (51.48% in Jan–Feb 2026).</div>
-    </div>
-
-    <div class="owner">
-      <div class="owner-left"><div class="owner-name">Julia</div><div class="owner-role">Brooklyn Content Lead</div></div>
-      <div>
-        <div class="slabel" style="margin-top:0;margin-bottom:10px;">Brooklyn Deliverables</div>
-        <div class="owner-tags">
-          <span class="owner-tag">State of Climate Tech Roundtable</span><span class="owner-tag">Strobe Profile</span><span class="owner-tag">Ten Year Special</span><span class="owner-tag">June Critical Mass Social</span><span class="owner-tag">Book Roll-Out Social</span><span class="owner-tag">A Day at Newlab</span><span class="owner-tag">Made at Newlab</span>
         </div>
       </div>
     </div>
@@ -469,28 +469,28 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Overview Film + Profiles (4)</div>
     <div class="grid">
       <div class="card ov">
-        <div class="c-icon">🎬</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="4" width="11" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M12 7.5l5-2.5v8l-5-2.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M4 4V3M7 4V3M10 4V3M4 14v1M7 14v1M10 14v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
         <div class="c-title">Newlab New Orleans — Refresher Film</div>
         <span class="c-badge">Overview Film · CERAWeek · T1</span>
         <div class="c-desc">A refresher overview produced for CERAWeek — one of the world's most important energy industry conferences. Tone is confident and industry-facing, not introductory. The audience already understands energy technology. The film communicates why Newlab NOLA is the most interesting room in the Gulf South critical tech ecosystem.</div>
         <div class="c-tags"><span class="c-tag">New Orleans</span><span class="c-tag">Cam</span><span class="c-tag">CERAWeek</span><span class="c-tag">Energy · Industry</span><span class="c-tag">T1 Production</span></div>
       </div>
       <div class="card dc">
-        <div class="c-icon">🔥</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 16c-3.5 0-6-2.5-6-5.5 0-2 1-3.5 2.5-4.5-.5 2 .5 3 1.5 3-.5-2 1-4 2.5-6 0 3 2.5 4 2.5 7 1-1 1-2.5 1-3.5C14 8.5 15 10 15 11.5c0 2.5-2.5 4.5-6 4.5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></div>
         <div class="c-title">Pyran — Founder / Company Profile</div>
         <span class="c-badge">Docu Profile · The Founders</span>
         <div class="c-desc">Pyran's founder and company story from inside Newlab New Orleans — the technology, the problem, and the role the Gulf South energy infrastructure plays in their path to commercialization. Clippable for The Founders series.</div>
         <div class="c-tags"><span class="c-tag">New Orleans</span><span class="c-tag">Founder Profile</span><span class="c-tag">Energy Tech</span></div>
       </div>
       <div class="card dc">
-        <div class="c-icon">🌊</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0M1 13c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0M1 5c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">SinkCo — Founder / Company Profile</div>
         <span class="c-badge">Docu Profile · The Founders</span>
         <div class="c-desc">SinkCo's story from New Orleans — founder, technology, and the specific context of building at the intersection of climate vulnerability and industrial opportunity in the Gulf South.</div>
         <div class="c-tags"><span class="c-tag">New Orleans</span><span class="c-tag">Founder Profile</span><span class="c-tag">Climate Tech</span></div>
       </div>
       <div class="card dc">
-        <div class="c-icon">⚙️</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="9" r="2.5" stroke="currentColor" stroke-width="1.3"/><path d="M9 1.5V3M9 15v1.5M1.5 9H3M15 9h1.5M3.7 3.7l1 1M13.3 13.3l1 1M14.3 3.7l-1 1M4.7 13.3l-1 1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">Encore — Founder / Company Profile</div>
         <span class="c-badge">Docu Profile · The Founders</span>
         <div class="c-desc">Encore's founder profile — company origin, technology focus, and what building inside Newlab New Orleans makes possible at this stage. Completes the three-company New Orleans portfolio story.</div>
@@ -541,21 +541,21 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Docu-Style Profiles (3)</div>
     <div class="grid">
       <div class="card ov">
-        <div class="c-icon">🎬</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="4" width="11" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><path d="M12 7.5l5-2.5v8l-5-2.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M4 4V3M7 4V3M10 4V3M4 14v1M7 14v1M10 14v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg></div>
         <div class="c-title">Newlab Riyadh — Refresher Film</div>
         <span class="c-badge">Overview Film · T1 Flagship</span>
         <div class="c-desc">A location introduction and refresher — who is there, what is being built, and why this city and region. Establishes the editorial identity for the Riyadh chapter: critical mineral technology, logistics, energy, and widespread regional industrial transformation.</div>
         <div class="c-tags"><span class="c-tag">Riyadh</span><span class="c-tag">Lead: TBD</span><span class="c-tag">Mining · Minerals</span><span class="c-tag">T1 Production</span></div>
       </div>
       <div class="card dc">
-        <div class="c-icon">⛏️</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 16L9 9M9 9l2-6 4 4-6 2zM9 9l-4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="c-title">Mining Studio</div>
         <span class="c-badge">Docu Profile · Built at Newlab</span>
         <div class="c-desc">A profile of the Mining Studio at Newlab Riyadh — what it is, who is inside it, what the work looks like. Behind-the-scenes look at one of Newlab's most distinctive programmatic offerings. Connects to the Built at Newlab series format.</div>
         <div class="c-tags"><span class="c-tag">Riyadh</span><span class="c-tag">Mining Studio</span><span class="c-tag">Critical Minerals</span><span class="c-tag">Built at Newlab</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">🤝</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7l4-4 3 2h2l3-2 4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M1 7l3 4 2-1.5L8 11l2-1.5 2 1.5 1.5-1.5L17 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 11l2 2 4-3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="c-title">Founders on Founders</div>
         <span class="c-badge">Original Format · Riyadh · Series Potential</span>
         <div class="c-desc">A format unique to the Riyadh slate: Newlab founders interviewing each other. Peer-to-peer storytelling surfaces different authenticity than produced profiles — and reflects the specific community dynamic of this location. Has strong potential as a recurring series across locations. Ties into The Founders prompt framework for structural consistency.</div>
@@ -670,56 +670,56 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
     <div class="slabel">Format Prompts (8)</div>
     <div class="grid">
       <div class="card sr">
-        <div class="c-icon">🔧</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 2.5a3.5 3.5 0 0 0-4.5 4l-7 7a1.5 1.5 0 0 0 2 2l7-7a3.5 3.5 0 0 0 4-4.5l-2 2-1.5-1.5 2-2z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></div>
         <div class="c-title">What's Your Jig?</div>
         <span class="c-badge">Format 01 · Visual Rich</span>
         <div class="c-desc">Every engineer has had the moment when ingenuity meets improvisation — when something had to be rigged to make an idea work. Founders tell the story of a time they hacked together a prototype or improvised a solution to get their technology off the ground.</div>
         <div class="c-tags"><span class="c-tag">Props + Demo</span><span class="c-tag">Universally Relatable</span><span class="c-tag">Humor Potential</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">🪨</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 14H3a1 1 0 0 1-1-1V9l3-5h8l3 5v4a1 1 0 0 1-1 1h-2" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M5 14h8v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-1z" stroke="currentColor" stroke-width="1.3"/></svg></div>
         <div class="c-title">Three Things</div>
         <span class="c-badge">Format 02 · Object-Based</span>
         <div class="c-desc">Founders share three objects in their workspace that symbolize their journey — a burnt-out circuit board, a first prototype, a childhood artifact. Each object anchors a story and gives natural cutaway footage. Portable — can be shot anywhere.</div>
         <div class="c-tags"><span class="c-tag">Natural B-Roll</span><span class="c-tag">Self-Guided</span><span class="c-tag">Emotionally Resonant</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">💡</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 2a5 5 0 0 1 3 9v1H6v-1A5 5 0 0 1 9 2z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M7 12h4M7.5 14h3M8 16h2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></div>
         <div class="c-title">Inception</div>
         <span class="c-badge">Format 03 · Origin Story</span>
         <div class="c-desc">Founders reflect on their earliest memory related to the technology or field they now work in — the moment the spark was lit. A space launch on TV, a broken radio they tried to fix, a science fair gone wrong. Low technical barrier. Works across all disciplines.</div>
         <div class="c-tags"><span class="c-tag">Origin Story</span><span class="c-tag">Low Barrier</span><span class="c-tag">Cross-Location</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">⚡</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11 2L5 10h6l-4 6 10-9h-6l5-5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></div>
         <div class="c-title">Breakthrough Moment</div>
         <span class="c-badge">Format 04 · Dramatic Arc</span>
         <div class="c-desc">The defining moment — the instant when a problem, experiment, or idea suddenly clicked. The time the founder first knew their technology could actually work. Centers the story around a clear turning point. Blends personal emotion with a moment of engineering insight.</div>
         <div class="c-tags"><span class="c-tag">Dramatic Arc</span><span class="c-tag">Human + Technical</span><span class="c-tag">Visually Flexible</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">🌍</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="9" r="7.5" stroke="currentColor" stroke-width="1.3"/><path d="M1.5 9h15M9 1.5a11 11 0 0 1 0 15M9 1.5a11 11 0 0 0 0 15" stroke="currentColor" stroke-width="1.3"/></svg></div>
         <div class="c-title">In the Wild</div>
         <span class="c-badge">Format 05 · Field Notes</span>
         <div class="c-desc">Innovation doesn't live only in the lab. Founders show or describe how their technology interacts with the real world — a surprising user, a field test gone wrong, a deployment that revealed something new. Grounds technology in context. Authentic field footage.</div>
         <div class="c-tags"><span class="c-tag">Field Footage</span><span class="c-tag">Real-World Context</span><span class="c-tag">Pilot Notes Adjacent</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">🎯</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="9" r="7.5" stroke="currentColor" stroke-width="1.3"/><circle cx="9" cy="9" r="4.5" stroke="currentColor" stroke-width="1.3"/><circle cx="9" cy="9" r="1.5" fill="currentColor"/></svg></div>
         <div class="c-title">Why This Matters</div>
         <span class="c-badge">Format 06 · Impact-First</span>
         <div class="c-desc">Starts with the problem, not the founder. Lead with the stakes — a global challenge or industry gap — before explaining how the company addresses it. Hooks viewers by showing relevance immediately. Mission ahead of mechanics. Cross-discipline friendly.</div>
         <div class="c-tags"><span class="c-tag">Impact-First</span><span class="c-tag">Mission Framing</span><span class="c-tag">Shareable</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">💬</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H6l-4 3V3z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg></div>
         <div class="c-title">Rapid-Fire Myths</div>
         <span class="c-badge">Format 07 · Educational</span>
         <div class="c-desc">Founders debunk three common misconceptions about their field or technology. Each myth gets a fast, punchy explanation — showing both expertise and personality. Energetic pacing. Delivers insight without jargon. Instantly scalable across companies and industries.</div>
         <div class="c-tags"><span class="c-tag">3-Part Structure</span><span class="c-tag">Educational</span><span class="c-tag">High Shareability</span></div>
       </div>
       <div class="card sr">
-        <div class="c-icon">🤝</div>
+        <div class="c-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 7l4-4 3 2h2l3-2 4 4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M1 7l3 4 2-1.5L8 11l2-1.5 2 1.5 1.5-1.5L17 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 11l2 2 4-3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="c-title">Founders on Founders</div>
         <span class="c-badge">Format 08 · Peer-to-Peer · Riyadh Pilot</span>
         <div class="c-desc">Newlab founders interview each other. Peer-to-peer storytelling surfaces a different kind of authenticity than produced profiles. Piloting first in Riyadh — has strong potential as a recurring cross-location format that builds community and ecosystem narrative simultaneously.</div>
@@ -897,16 +897,16 @@ body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--tex
   <div class="tl-label">Five Locations — One Content Plan — 2026</div>
   <div class="tl-phases">
     <div class="tl-p ap" onclick="go(0)">
-      <div class="tl-dot" style="background:var(--hi);color:var(--black);">1</div>
-      <div class="tl-year">Detroit</div><div class="tl-name">Angles · Sara</div><div class="tl-sub">10 deliverables</div>
+      <div class="tl-dot" style="background:var(--klein);color:white;">1</div>
+      <div class="tl-year">Brooklyn</div><div class="tl-name">Julia</div><div class="tl-sub">7 deliverables</div>
     </div>
     <div class="tl-p" onclick="go(1)">
-      <div class="tl-dot" style="background:var(--abyssline);color:var(--opaline);border-color:var(--slate);">2</div>
-      <div class="tl-year">Montevideo</div><div class="tl-name">Lupe</div><div class="tl-sub">5 deliverables</div>
+      <div class="tl-dot" style="background:var(--hi);color:var(--black);">2</div>
+      <div class="tl-year">Detroit</div><div class="tl-name">Angles · Sara</div><div class="tl-sub">10 deliverables</div>
     </div>
     <div class="tl-p" onclick="go(2)">
-      <div class="tl-dot" style="background:var(--klein);color:white;">3</div>
-      <div class="tl-year">Brooklyn</div><div class="tl-name">Julia</div><div class="tl-sub">7 deliverables</div>
+      <div class="tl-dot" style="background:var(--abyssline);color:var(--opaline);border-color:var(--slate);">3</div>
+      <div class="tl-year">Montevideo</div><div class="tl-name">Lupe</div><div class="tl-sub">5 deliverables</div>
     </div>
     <div class="tl-p" onclick="go(3)">
       <div class="tl-dot" style="background:var(--mars);color:white;">4</div>
